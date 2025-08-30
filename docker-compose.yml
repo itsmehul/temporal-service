@@ -50,7 +50,7 @@ services:
     networks:
       - temporal-network
     ports:
-      - 7233:7233
+      - 7234:7233
     volumes:
       - ./dynamicconfig:/etc/temporal/config/dynamicconfig
   temporal-admin-tools:
